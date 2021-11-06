@@ -1,6 +1,6 @@
 ## Welcome to Shannon tweezers.
 
-For discussion, please visit: [eevblog](https://www.eevblog.com/forum/testgear/design-a-new-precision-lcr-tweezers)
+For discussion, please visit: [eevblog](https://www.eevblog.com/forum/testgear/design-a-new-precision-lcr-tweezers/)
 
 For pre-orders, please send email to shannon.tweezers@gmail.com
 
