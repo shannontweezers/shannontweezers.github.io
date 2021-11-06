@@ -1,5 +1,11 @@
 ## Welcome to Shannon tweezers.
 
+For discussion, please visit: [eevblog](https://www.eevblog.com/forum/testgear/design-a-new-precision-lcr-tweezers)
+
+For pre-orders, please send email to shannon.tweezers@gmail.com
+
+Current state: limited by global chip shortage, waiting for prodution, early-samples available.
+
 More content comming.
 
 ### Unboxing Shannon Tweezers
