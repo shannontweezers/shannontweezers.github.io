@@ -6,6 +6,9 @@ For pre-orders, please send email to shannon.tweezers@gmail.com
 
 Current state: limited by global chip shortage, waiting for prodution, early-samples available.
 
+Kickstarer Preview: [Shannon Tweezers - Accurate Intelligent LCR Meter
+](https://www.kickstarter.com/projects/751050478/526869536?ref=c0jkaw&token=665a4d84)
+
 More content comming.
 
 ### Unboxing Shannon Tweezers
