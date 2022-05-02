@@ -6,15 +6,12 @@ For pre-orders, please send email to shannon.tweezers@gmail.com
 
 Current state: limited by global chip shortage, waiting for prodution, early-samples available.
 
-Kickstarer Preview: [Shannon Tweezers - Accurate Intelligent LCR Meter
-](https://www.kickstarter.com/projects/751050478/526869536?ref=c0jkaw&token=665a4d84)
-
 More content comming.
 
 ### Shannon Tweezers ST42 Introduction
 
 <p align="center">
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=N05yWY9Rk6A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="1136" height="639" src="https://www.youtube.com/embed/N05yWY9Rk6A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </p>
 
 ### Unboxing Shannon Tweezers
