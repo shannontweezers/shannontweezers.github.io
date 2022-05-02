@@ -2,21 +2,15 @@
 
 For discussion, please visit: [eevblog](https://www.eevblog.com/forum/testgear/design-a-new-precision-lcr-tweezers/)
 
-For pre-orders, please send email to shannon.tweezers@gmail.com
+For early birds orders, please send email to shannon.tweezers@gmail.com
 
-Current state: limited by global chip shortage, waiting for prodution, early-samples available.
+Current state: limited by global chip shortage, waiting for massive prodution.
 
 More content comming.
 
 ### Shannon Tweezers ST42 Introduction
 
 <p align="center">
-<iframe width="1136" height="639" src="https://www.youtube.com/embed/N05yWY9Rk6A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</p>
-
-### Unboxing Shannon Tweezers
-
-<p align="center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/JMyViml9v5A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="640" height="360" src="https://www.youtube.com/embed/Xqg24W9agGk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </p>
 
