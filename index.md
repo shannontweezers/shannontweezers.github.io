@@ -11,6 +11,12 @@ Kickstarer Preview: [Shannon Tweezers - Accurate Intelligent LCR Meter
 
 More content comming.
 
+### Shannon Tweezers ST42 Introduction
+
+<p align="center">
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=N05yWY9Rk6A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
+
 ### Unboxing Shannon Tweezers
 
 <p align="center">
