@@ -1,0 +1,403 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Upgrading Firmware - Shannon Tweezers</title>
+<meta name="description" content="Instructions and suggestions for upgrading the theme.">
+
+
+  <meta name="author" content="Shannon Tweezers">
+  
+  <meta property="article:author" content="Shannon Tweezers">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Shannon Tweezers">
+<meta property="og:title" content="Upgrading Firmware">
+<meta property="og:url" content="http://localhost:4000/docs/upgrading-firmware/">
+
+
+  <meta property="og:description" content="Instructions and suggestions for upgrading the theme.">
+
+
+
+  <meta property="og:image" content="http://localhost:4000/assets/images/site-logo.png">
+
+
+
+  <meta name="twitter:site" content="@mmistakes">
+  <meta name="twitter:title" content="Upgrading Firmware">
+  <meta name="twitter:description" content="Instructions and suggestions for upgrading the theme.">
+  <meta name="twitter:url" content="http://localhost:4000/docs/upgrading-firmware/">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+      <meta name="twitter:image" content="http://localhost:4000/assets/images/site-logo.png">
+    
+  
+
+  
+
+
+
+  <meta property="article:published_time" content="2022-06-13T10:52:54-04:00">
+
+
+
+  <meta property="article:modified_time" content="2022-06-04T08:15:34-04:00">
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:4000/docs/upgrading-firmware/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Shannon Tweezers",
+      "url": "http://localhost:4000/",
+      "sameAs": ["https://www.eevblog.com/forum/testgear/design-a-new-precision-lcr-tweezers/","https://www.shannontweezers.top"]
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Shannon Tweezers Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          Shannon Tweezers
+          <span class="site-subtitle">A trustworthy smart tweezers</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/docs/introduction/">Introduction</a>
+            </li><li class="masthead__menu-item">
+              <a href="/docs/specifications/">Specifications</a>
+            </li><li class="masthead__menu-item">
+              <a href="/docs/upgrading-firmware/">Firmware Upgrade</a>
+            </li><li class="masthead__menu-item">
+              <a href="/about/">About</a>
+            </li><li class="masthead__menu-item">
+              <a href="/terms/">Terms &amp; Privacy Policy</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">Getting Started</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/introduction/">Introduction</a></li>
+          
+            <li><a href="/docs/specifications/">Specifications</a></li>
+          
+            <li><a href="/docs/upgrading-firmware/" class="active">Firmware Upgrade</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Upgrading Firmware">
+    <meta itemprop="description" content="Instructions and suggestions for upgrading the theme.">
+    <meta itemprop="datePublished" content="2022-06-13T10:52:54-04:00">
+    <meta itemprop="dateModified" content="2022-06-04T08:15:34-04:00">
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title p-name" itemprop="headline">
+            <a href="http://localhost:4000/docs/upgrading-firmware/" class="u-url" itemprop="url">Upgrading Firmware
+</a>
+          </h1>
+          
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+          <aside class="sidebar__right ">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
+              <ul class="toc__menu"><li><a href="#firmware-changes">Firmware Changes</a></li></ul>
+
+            </nav>
+          </aside>
+        
+        <p>We have always listen to customers feedback and made firmware upgrade as needed. For new features and bug fixes, follow this page to upgrade the firmware.</p>
+
+<p class="notice--info"><strong>Note:</strong> We provides a command line tool for now, please follow below instructions. Windows, linux, mac are supported, please use corresponding package.</p>
+
+<p><strong>Shannon Tweezers ST42 Firmware Upgrader Instruction Video</strong></p>
+<iframe width="680" height="383" src="https://www.youtube.com/embed/iW8T11KWXq8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<p><a href="https://drive.google.com/file/d/1v5WTc4_2yzmJNXrMT2toFm8UtJBrAv7p/view?usp=sharing">firmware-uploader.zip</a></p>
+
+<p>Latest Firmware Version: v1.3.9</p>
+
+<h2 id="firmware-changes">Firmware Changes</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">version</th>
+      <th style="text-align: center">time</th>
+      <th style="text-align: left">changes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">v1.3.9</td>
+      <td style="text-align: center">2022/6/8</td>
+      <td style="text-align: left">added low battery warnings.</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">v1.3.8</td>
+      <td style="text-align: center">2022/5/25</td>
+      <td style="text-align: left">fix abnormal battery result when switching between LED and DIODE mode.</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">v1.3.7</td>
+      <td style="text-align: center">2022/5/15</td>
+      <td style="text-align: left">show forward voltage when no diode detected in DIODE mode.</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: left">allow to set auto-off timer to NEVER.</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">v1.3.6</td>
+      <td style="text-align: center">2022/5/14</td>
+      <td style="text-align: left">fix auto-off timer in DCR and DIODE mode.</td>
+    </tr>
+  </tbody>
+</table>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2022-06-04">June 4, 2022</time></p>
+
+      </footer>
+
+      
+
+      
+  <nav class="pagination">
+    
+      <a href="/docs/specifications/" class="pagination--pager" title="Specifications
+">Previous</a>
+    
+    
+      <a href="#" class="pagination--pager disabled">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';" role="search">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+          <li><a href="https://www.eevblog.com/forum/testgear/design-a-new-precision-lcr-tweezers/" rel="nofollow noopener noreferrer"><i class="fa-solid fa-comments" aria-hidden="true"></i> Discussion</a></li>
+        
+      
+        
+          <li><a href="mailto:shannon.tweezers@gmail.com" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i> Email</a></li>
+        
+      
+        
+          <li><a href="https://github.com/shannontweezers" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2022 Shannon Tweezers. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>
