@@ -50,7 +50,7 @@
 
 
 
-  <meta property="article:published_time" content="2022-07-12T09:27:02-04:00">
+  <meta property="article:published_time" content="2022-07-21T12:18:23-04:00">
 
 
 
@@ -241,7 +241,7 @@
           <aside class="sidebar__right ">
             <nav class="toc">
               <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
-              <ul class="toc__menu"><li><a href="#firmware-changes">Firmware Changes</a></li></ul>
+              <ul class="toc__menu"><li><a href="#firmware-changes">Firmware Changes</a><ul><li><a href="#v143-2022722">v1.4.3 2022/7/22</a></li></ul></li></ul>
 
             </nav>
           </aside>
@@ -255,9 +255,17 @@
 
 <p><a href="https://drive.google.com/file/d/1v5WTc4_2yzmJNXrMT2toFm8UtJBrAv7p/view?usp=sharing">firmware-uploader.zip</a></p>
 
-<p>Latest Firmware Version: v1.4.2, released on 6/27</p>
-
 <h2 id="firmware-changes">Firmware Changes</h2>
+
+<h3 id="v143-2022722">v1.4.3 2022/7/22</h3>
+
+<p>Thanks to TheDefPom’s accuracy review <a href="https://www.youtube.com/watch?v=zeVnTaNkMsI&amp;t=128s&amp;ab_channel=Defpom%27sElectronicsRepair">video</a>, we fixed the resistor measurement noise bug in v1.4.2.</p>
+
+<p>Please let us know if you encountered any issue with Shannon Tweezers, we definitely will improve it in short time.</p>
+
+<p>The AUTO mode is also suitable discrete resistor measurement. In fact, AC excitation signal with builtin DFT analysis leads to better noise and accuracy performance since the DC offset in circuit is eliminated compared to DC signal measurement.</p>
+
+<p>The DC resistance measurement is now enabled with builtin both 50Hz and 60Hz notch filter, so the noise introduced via long lead and large resistance can be reduced greatly.</p>
 
 <table>
   <thead>
@@ -268,6 +276,11 @@
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td style="text-align: center">v1.4.3</td>
+      <td style="text-align: center">2022/7/21</td>
+      <td style="text-align: left">Fix unstable DC resistance result.</td>
+    </tr>
     <tr>
       <td style="text-align: center">v1.4.2</td>
       <td style="text-align: center">2022/6/27</td>
