@@ -50,7 +50,7 @@
 
 
 
-  <meta property="article:published_time" content="2023-04-05T11:46:11-04:00">
+  <meta property="article:published_time" content="2023-05-14T00:04:32-04:00">
 
 
 
@@ -220,7 +220,7 @@
   <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
     <meta itemprop="headline" content="Upgrading Firmware">
     <meta itemprop="description" content="Instructions and suggestions for upgrading the theme.">
-    <meta itemprop="datePublished" content="2023-04-05T11:46:11-04:00">
+    
     <meta itemprop="dateModified" content="2022-06-04T08:15:34-04:00">
 
     <div class="page__inner-wrap">
@@ -241,7 +241,7 @@
           <aside class="sidebar__right ">
             <nav class="toc">
               <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
-              <ul class="toc__menu"><li><a href="#firmware-uploader-command-line-tool">Firmware Uploader command line tool</a></li><li><a href="#v151-202345">v1.5.1 2023/4/5</a></li><li><a href="#v150-202343">v1.5.0 2023/4/3</a></li><li><a href="#v143-2022722">v1.4.3 2022/7/22</a></li></ul>
+              <ul class="toc__menu"><li><a href="#firmware-uploader-command-line-tool">Firmware Uploader command line tool</a></li><li><a href="#upgrade-to-specific-version">Upgrade to specific version</a></li><li><a href="#v152153-20235">v1.5.2~1.5.3 2023/5</a></li><li><a href="#v151-202345">v1.5.1 2023/4/5</a></li><li><a href="#v150-202343">v1.5.0 2023/4/3</a></li><li><a href="#v143-2022722">v1.4.3 2022/7/22</a></li></ul>
 
             </nav>
           </aside>
@@ -255,10 +255,27 @@
 
 <h3 id="firmware-uploader-command-line-tool">Firmware Uploader command line tool</h3>
 
-<p class="notice--info">The commandline tool by default downloads the latest firmware from server and push it to device. Please make sure there is internet connectivity before running the tool.</p>
-<p><a href="https://github.com/shannontweezers/shannontweezers.github.io/releases/download/v0.0.1/fw-update-5.26.zip">Click to download</a></p>
+<p class="notice--info"><strong>Update on 2023/5</strong> The ota server has changed its domain name, please use latest tool <code class="language-plaintext highlighter-rouge">fw-update-2023-5-10.zip</code> in below link.</p>
+
+<p class="notice--info">The command line tool by default downloads the latest firmware from server and push it to device. Please make sure there is internet connectivity before running the tool.</p>
+<p><a href="https://github.com/shannontweezers/shannontweezers.github.io/releases/download/2023-5-10/fw-update-2023-5-10.zip">Click to download</a></p>
+
+<h3 id="upgrade-to-specific-version">Upgrade to specific version</h3>
+
+<p>In rare cases, new bugs may bring to latest firmware. Though we’ll fix them as soon as we find them, if your application is affected, you can always upgrade to previous version by add <code class="language-plaintext highlighter-rouge">-v v1.5.0</code> parameter to the command line tool. Replace <code class="language-plaintext highlighter-rouge">v1.5.0</code> with version number you want. Please check below section on details of every version upgrades.</p>
+
+<p>Notice that when no version number specified, it always upgrades to latest version.</p>
 
 <h2 id="firmware-changes">Firmware Changes</h2>
+
+<h3 id="v152153-20235">v1.5.2~1.5.3 2023/5</h3>
+
+<p>This series of upgrade added some small improvements on user interface.</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">HOLD</code> function is fixed, which is introduced by <code class="language-plaintext highlighter-rouge">OL</code> detection function.</li>
+  <li>Fix the dummy invalid voltage option in menu.</li>
+</ul>
 
 <h3 id="v151-202345">v1.5.1 2023/4/5</h3>
 
@@ -288,14 +305,24 @@
   </thead>
   <tbody>
     <tr>
+      <td style="text-align: center">v1.5.3</td>
+      <td style="text-align: center">2022/7/24</td>
+      <td style="text-align: left">remove dummy invalid voltage option in menu</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">v1.5.2</td>
+      <td style="text-align: center">2022/7/24</td>
+      <td style="text-align: left">fix <code class="language-plaintext highlighter-rouge">HOLD</code> function introduced by <code class="language-plaintext highlighter-rouge">overload detection</code></td>
+    </tr>
+    <tr>
       <td style="text-align: center">v1.5.1</td>
-      <td style="text-align: center">2023/4/5</td>
-      <td style="text-align: left">added overload detection support</td>
+      <td style="text-align: center">2022/7/24</td>
+      <td style="text-align: left">add overload detection support</td>
     </tr>
     <tr>
       <td style="text-align: center">v1.5.0</td>
-      <td style="text-align: center">2023/4/3</td>
-      <td style="text-align: left">added support of press and hold joystick to tun off meter</td>
+      <td style="text-align: center">2022/7/24</td>
+      <td style="text-align: left">support press and hold joystick method to power off tweezers</td>
     </tr>
     <tr>
       <td style="text-align: center">v1.4.4</td>
